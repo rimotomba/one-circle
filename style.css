@@ -44,11 +44,12 @@ a {
     display: flex;
     flex-direction: column;
     max-width: 350px;
-    gap: 12px;
+   
 }
 .launch {
    color: #f9faf8;
    font-size: 48px;
+ 
 }
 .text {
     color: #e5e7eb;
@@ -60,6 +61,12 @@ button {
   color: white;
  
 }
+.sign1 {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
 
 .information {
     display: flex;
@@ -67,7 +74,15 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 40px;
 
+}
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 .categories {
     display: flex;
@@ -75,38 +90,49 @@ button {
     gap: 55px;
     
 }
+
 .icons {
     display: flex;
     flex-direction: column;
     max-width: 100px;
-   
+    gap: 10px;
+}
 
+.model, .audio, .photography, .writing {
+    font-size: 12px;
 }
 .quote {
     display: flex;
-    flex-direction: column;
     background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
     max-height: 200px;
     padding: 44px;
-    padding-left: 222px;
-    padding-left: 120px;
+ 
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 .text2 {
     font-size: 36px;
     font-style: italic;
+    font-weight: 100;
     color: #1f2937;
     max-width: 500px;
-    font-weight: lighter;
+    padding-right: 30px;
+   
 }
 .credit {
     display: flex;
-    align-content: flex-end;
+    align-self: flex-end;
     color: #1f2937;
     font-weight: bolder;
 }
 .signup {
     display: flex;
-    max-width: 500px;
     align-items: center;
     justify-content: center;
     padding: 60px;
@@ -115,9 +141,30 @@ button {
 .container {
     display: flex;
     background-color: #3882f6;
-    flex-direction: column;
     padding: 24px;
+    gap: 150px;
+    border-radius: 5px;
    
+}
+.calltext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.actiont {
+    color: #f9faf8;
+    font-weight: bold;
+}
+.actionm {
+    color: #e5e7eb;
+}
+.sign2 {
+    width: 100px;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+   
+
 }
 .footer {
 
@@ -129,4 +176,8 @@ button {
   align-items: center;
   justify-content: center;
   background-color: #1f2937;
+}
+.copyright {
+    color: #f9faf8;
+    font-size: 12px;
 }
